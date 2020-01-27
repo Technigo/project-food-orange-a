@@ -75,9 +75,9 @@
   position: relative;
   
   padding: 100px 16px;
-    display: flex;
-    flex-direction: column;
-    color: #fbe9e4;
+  display: flex;
+  flex-direction: column;
+  color: #fbe9e4;
 }
 /*the picture should be as big as possible and grow when we chance screen size*/
 
@@ -172,24 +172,24 @@ footer {
         }
 
     }
-        @media (min-width: 1024px) {
-            .restaurant-container .container {
-                flex-direction: row;
-                align-items: center;
-            }
+    @media (min-width: 1024px) {
+        .restaurant-container .container {
+            flex-direction: row;
+            align-items: center;
+    }
            /* .big-news-container img {
                 width: 50%;
             }
             /* the news cards will be at least 25% of the size but still grow*/
-            .restaurantCard {
-                width: 25%;
-                flex-grow: 1;
-                margin: 16px;
-            }
-            .restaurantCard img{
-                object-position: bottom;
-                width: 25%;
-                flex-grow: 1;
-                margin: 16px;
-            }
+        .restaurantCard {
+            width: 25%;
+            flex-grow: 1;
+            margin: 16px;
         }
+        .restaurantCard img {
+            object-position: bottom;
+            width: 25%;
+            flex-grow: 1;
+            margin: 16px;
+        }
+    }

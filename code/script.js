@@ -20,7 +20,7 @@ const fetchRestaurants = () => {
 
 //function that deside which info to show
 const renderRestaurantInfo = (restaurant) => {
-    return `<li class="restaurantCard">${restaurant.name} <br> 
+    return `<li class="restaurantCard">${restaurant.name}<br> 
          Opening Hours: ${restaurant.timings}<br> 
         Address: ${restaurant.location.address} <br> 
         Phone: ${restaurant.phone_numbers}<br> 
